@@ -1,0 +1,17 @@
+<template name="scanners">
+  <div class="dropdown">
+    <button type="button" class="btn btn-default dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Single Scans <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      {{#each availableScanners}}
+        {{> scanner}}
+      {{/each}}
+    </ul>
+  </div>
+</template>
+
+<template name="scanner">
+  <li><a href="#">{{friendlyName}}</a></li>
+  <li role="separator" class="divider"></li>
+</template>

@@ -1,0 +1,46 @@
+<template name="Basestations">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class = "panel-title"> Base Stations: {{count}}</h4>
+    </div>
+  <div class="panel-body">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>CID</th>
+          <th>LAC</th>
+          <th>ARFCN</th>
+    <!--   <th>Paging Count</th> -->
+          <th>Provider (MNC)</th>
+         <th>Signal Strength</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      {{#each basestations}}
+        {{> Basestation}}
+      {{/each}}
+    </tbody>
+  </table>
+</div>
+</div>
+</template>
+
+<template name="Basestation">
+<tr>
+  <td>{{cid}}</td>
+    <td>{{lac}}</td>
+    <td>{{arfcn}}</td>
+    <!--  <td>{{pages}}</td>  -->
+    <td>{{provider}} ({{mnc}})</td>
+   <td>{{signalStrength}}</td>
+</tr>
+</template>
+
+ <!-- <template name="country">
+  {{#with getlocation}}
+    {{MMC}}
+      {{mmc}}
+      {{country}}
+  {{/with}}
+</template>  -->

@@ -1,0 +1,44 @@
+<head>
+  <title>SDR Detector</title>
+</head>
+
+<body>
+<div class="container">
+  <div class="row">
+      <div class="col-md-4">{{> titleBar}}</div>
+      <div class="col-md-8">{{> titleBarRight}}</div>
+  </div>
+    <div class="row">
+        <div class="col-md-12">
+        </div>
+    </div>
+  <div class="row">
+      <div class="col-md-12">
+          {{> Basestations}}
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-md-12">
+          {{> gsmReadings}}
+      </div>
+  </div>
+</div>
+</body>
+
+<template name="titleBar">
+  <div class="well">
+  <h3><strong>SDR DETECTOR</strong></h3>
+  <h4><strong>Location: </strong>{{location}}</h4>
+  <h4><strong>Threat Level: </strong>{{threatLevel}}</h4>
+  <h4><strong>Threat Score: </strong>{{threatScore}}</h4>
+  {{> arfcnBands}} {{> arfcns}}
+  </div>
+</template>
+
+<template name="titleBarRight">
+  <div class="well">  <div style="height:30px">  </div>
+      <div style="border:60px; float:left">{{> games}}</div>
+      <div style="border:60px; float:right">{{> scanners}}</div><br />
+    <div style="height:110px"><br /><hr><h4><strong>Status: </strong>{{currentStatus}}</h4></div>
+  </div>
+</template>

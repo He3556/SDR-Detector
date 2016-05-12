@@ -1,0 +1,19 @@
+<template name="games">
+  <div class="btn-group">
+    <button type="button" class="btn btn-success">Start Scanning Loop</button>
+    <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="caret"></span>
+      <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu">
+      {{#each availableGames}}
+        {{> game}}
+      {{/each}}
+    </ul>
+  </div>
+</template>
+
+<template name="game">
+  <li><a href="#">{{friendlyName}}</a></li>
+  <li role="separator" class="divider"></li>
+</template>

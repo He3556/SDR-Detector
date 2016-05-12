@@ -1,0 +1,52 @@
+<template name="gsmReadings">
+    <div class = "panel-group" id = "accordion">
+     <div class = "panel panel-default">
+        <div class = "panel-heading">
+           <h4 class = "panel-title">
+              <a data-toggle = "collapse" data-parent = "#accordion" href = "#collapseOne">
+                GSM Readings</a></h4>
+           </div>
+        <div id = "collapseOne" class = "panel-collapse collapse">
+          <div class = "panel-body">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Scanner</th>
+                <th>CID</th>
+                <th>MNC</th>
+                <th>MCC</th>
+                <th>LAC</th>
+                <th>S/N (db)</th>
+                <th>Frequency</th>
+                <th>Timer</th>
+                <th>Timestamp</th>
+                <th>Signal Strength</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              {{#each readings}}
+                {{> gsmReading}}
+              {{/each}}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<template name="gsmReading">
+  <tr>
+    <td>{{scanner}}</td>
+    <td>{{cid}}</td>
+    <td>{{mnc}}</td>
+    <td>{{mcc}}</td>
+    <td>{{lac}}</td>
+    <td>{{signalNoise}}</td>
+    <td>{{frequency}}MHz</td>
+    <td>{{locUpTimer}}</td>
+    <td>{{timestamp}}</td>
+    <td>{{signalStrength}}</td>
+  </tr>
+</template>

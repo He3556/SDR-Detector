@@ -1,0 +1,42 @@
+<template name="Paging">
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class = "panel-title"> Paging:</h4>
+    </div>
+  <div class="panel-body">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>CID</th>
+        <th>IMSI</th>
+        <th>TMSI</th>
+        <th>Counter</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      {{#each Pagings}}
+        {{> Pagings}}
+      {{/each}}
+    </tbody>
+  </table>
+</div>
+</div>
+</template>
+
+<template name="Pagings">
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+</template>
+
+ <!-- <template name="country">
+  {{#with getlocation}}
+    {{MMC}}
+      {{mmc}}
+      {{country}}
+  {{/with}}
+</template>  -->
