@@ -156,7 +156,7 @@ Modify `settings.json` to reflect your actual environment.
 
    {
   "pythonLocation": "/usr/bin/python2",
-  "airprobeLocation": "/home/user/workspace/SDR-Detector/desec/grcs/airprobe_rtlsdr.py",
+  "airprobeLocation": "/home/user/workspace/SDR-Detector/grcs/airprobe_rtlsdr.py",
   "rtlsdrscanLocation": "/home/user/workspace/RTLSDR-Scanner/src/rtlsdr_scan.py",
   "quickScanLogLocation": "/home/user/workspace/quickScan.csv",
   "tSharkLocation": "/usr/local/bin/tshark",
@@ -168,8 +168,8 @@ Modify `settings.json` to reflect your actual environment.
   "quickScanFFT": 1024,
   "deepScanPeriod": 15,
   "testing": {
-    "testRTLSDRScannerCSV": "/home/user/workspace/SDR-Detector/desec/packages/gsm-scanners/scanners/p1-rtlsdr-scanner-tests.csv",
-    "testPCAPFile": "/home/user/workspace/SDR-Detector/desec/packages/gsm-scanners/scanners/p2-bts-test-file.pcapng"
+    "testRTLSDRScannerCSV": "/home/user/workspace/SDR-Detector/packages/gsm-scanners/scanners/p1-rtlsdr-scanner-tests.csv",
+    "testPCAPFile": "/home/user/workspace/SDR-Detector/packages/gsm-scanners/scanners/p2-bts-test-file.pcapng"
   }
 }
 
@@ -205,14 +205,6 @@ Testing
 Run from project root
     meteor test-packages
 
-Known problems
-A number of issues is still unsolved yet:
-
-    PRTG can not be run as a service under Wine yet
-    The internal web server of PRTG only works on 127.0.0.1
-    The internal web browser of PRTG does not work
-    The window minimize/maximize icons are not there
-    Sometimes PRTG seems to crash upon exiting the program using "File|Exit", use ALT+F4 instead
 
 One tip for Wine: If you happen to have a crashed window of a Windows EXE that blocks everything else, run the command "wineserver -k" to kill the Windows emulation process and with it all Windows apps.
 # SDR-Detector
