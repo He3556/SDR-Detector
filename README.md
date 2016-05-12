@@ -1,6 +1,11 @@
 
 This project is based on: Nodejs, npm and the Meteor platform. https://www.meteor.com/
 Other components (like GNU Radio, Wireshark and GR-GSM) have to be installed in order to use SDR-Detector.
+compatible to: 
+
+StingWatch - https://github.com/marvinmarnold/stingwatch
+
+Meteor-imsi-catcher-catcher - https://github.com/marvinmarnold/meteor-imsi-catcher-catcher
 
 
 Usage
@@ -25,4 +30,6 @@ sudo meteor --settings settings.json
 ### Webapp
 
 By default, Meteor runs the webserver on `http://localhost:3000`
+
+
 
