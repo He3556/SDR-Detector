@@ -1,6 +1,6 @@
 
 This project is based on: Nodejs, npm and the Meteor platform. https://www.meteor.com/
-Other components (like GNU Radio, Wireshark and GR-GSM) have to be installed in order to use SDR-Detector.
+Other components (like GNU Radio, Wireshark and GR-GSM) have to be installed in order to use SDR-Detector. It's also possible to expand the system with detectors for ***WiFi, Bluetooth, UMTS and LTE frequency bands***. (using existing open source projects)
 
 ***The software is compatible to:***
 [Stingwatch](https://github.com/marvinmarnold/stingwatch) (Cordova based Stingray (IMSI-Catcher) detection) 
