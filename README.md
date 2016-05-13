@@ -3,12 +3,8 @@ This project is based on: Nodejs, npm and the Meteor platform. https://www.meteo
 Other components (like GNU Radio, Wireshark and GR-GSM) have to be installed in order to use SDR-Detector.
 
 ***The software is compatible to:***
-StingWatch (Cordova based Stingray (IMSI-Catcher) detection)  
-https://github.com/marvinmarnold/stingwatch
-
-Meteor-imsi-catcher-catcher (Meteor package for client + server side IMSI-catcher detection.)
-https://github.com/marvinmarnold/meteor-imsi-catcher-catcher
-
+StingWatch (Cordova based Stingray (IMSI-Catcher) detection) https://github.com/marvinmarnold/stingwatch
+Meteor-imsi-catcher-catcher (Meteor package for client + server side IMSI-catcher detection.) https://github.com/marvinmarnold/meteor-imsi-catcher-catcher
 Android Client: https://github.com/marvinmarnold/StingrayAPIClient
 
 
