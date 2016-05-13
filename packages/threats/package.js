@@ -19,7 +19,6 @@ Package.onUse(function(api) {
     'aldeed:collection2@2.5.0',
     'aldeed:simple-schema@1.4.0',
     'matb33:collection-hooks@0.8.1',
-    'marvin:prtg'
   ])
 
   api.addFiles('threats.js');
