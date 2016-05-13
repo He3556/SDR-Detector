@@ -5,7 +5,7 @@ Other components (like GNU Radio, Wireshark and GR-GSM) have to be installed in 
 ***The software is compatible to:***
 [Stingwatch](https://github.com/marvinmarnold/stingwatch) (Cordova based Stingray (IMSI-Catcher) detection) 
 [Meteor ICC](https://github.com/marvinmarnold/meteor-imsi-catcher-catcher) Meteor-imsi-catcher-catcher (Meteor package for client + server side IMSI-catcher detection.) 
-[API Client](https://github.com/marvinmarnold/StingrayAPIClient)
+[API Client](https://github.com/marvinmarnold/StingrayAPIClient) (more details soon)
 
 ***
 
