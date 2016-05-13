@@ -47,7 +47,6 @@ marvin:countrycodes@0.0.1
 marvin:detectors@0.0.1
 marvin:gsm-readings@0.0.1
 marvin:gsm-scanners@0.0.1
-marvin:prtg@0.0.1
 marvin:status@0.0.1
 marvin:threats@0.0.1
 matb33:collection-hooks@0.8.1
