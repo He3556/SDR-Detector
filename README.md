@@ -9,16 +9,16 @@ Other components (like GNU Radio, Wireshark and GR-GSM) have to be installed in 
 
 ***
 
-Usage
+###Usage
 ------
 https://github.com/He3556/SDR-Detector/wiki/Directions-For-Use
 
-
-Installation
+###Detections
 ------
-https://github.com/He3556/SDR-Detector/wiki/Installation-of-components-and-libraries
+https://github.com/He3556/SDR-Detector/wiki/Thread-level-and-score-calculation
 
-WiKi
+
+###WiKi
 ------
 https://github.com/He3556/SDR-Detector/wiki
 
@@ -26,11 +26,13 @@ https://github.com/He3556/SDR-Detector/wiki
 ```
 // Must run as `root` in order to capture data
 sudo meteor --settings settings.json      
+By default, Meteor runs the webserver on `http://localhost:3000`
 ```
 
-### Webapp
+***
 
-By default, Meteor runs the webserver on `http://localhost:3000`
-
+**This project is under development by 
+[He3556](https://github.com/He3556) and [MarvinArnold](https://github.com/marvinmarnold) 
+copyright 2016 - dm-development.de**
 
 
