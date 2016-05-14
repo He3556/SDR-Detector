@@ -9,18 +9,11 @@ Other components (like GNU Radio, Wireshark and GR-GSM) have to be installed in 
 
 ***
 
-###Usage
-------
-https://github.com/He3556/SDR-Detector/wiki/Directions-For-Use
+###[Usage](https://github.com/He3556/SDR-Detector/wiki/Directions-For-Use)
 
-###Detections
-------
-https://github.com/He3556/SDR-Detector/wiki/Thread-level-and-score-calculation
+###[Detections](https://github.com/He3556/SDR-Detector/wiki/Thread-level-and-score-calculation)
 
-
-###WiKi
-------
-https://github.com/He3556/SDR-Detector/wiki
+###[WiKi](https://github.com/He3556/SDR-Detector/wiki)
 
 
 ```
