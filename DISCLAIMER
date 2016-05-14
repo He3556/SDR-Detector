@@ -5,17 +5,21 @@ DISCLAIMER of SDR-Detector
 3. If you ever encounter a problem with our software or feel that your intellectual property has been hurt or not handled according to its copyrights, please contact us.
 
  * LICENSE: https://github.com/He3556/SDR-Detector/blob/master/license  
- * DISCLAMER: https://github.com/He3556/SDR-Detector/blob/master/disclaimer
  
 The above copyright notice and this permission notice shall be included in all copies 
 or substantial portions of the Software. 
 (GNU GENERAL PUBLIC LICENSE)
 
-This project contains programs based on GNURadio and gr-gsm. 
+
+This project contains the following code and data: 
+GNU Radio Block 
 - airprobe_rtlsdr.grc
 https://github.com/ptrkrysik/gr-gsm
 http://gnuradio.org/
+
 - Mobile Country Code Table (http://mcc-mnc.com/)
+The MIT License (MIT)
+Copyright (c) 2016 Mustafa Al-Bassam
 https://github.com/musalbas/mcc-mnc-table
 
 
