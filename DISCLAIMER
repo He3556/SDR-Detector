@@ -11,6 +11,13 @@ The above copyright notice and this permission notice shall be included in all c
 or substantial portions of the Software. 
 (GNU GENERAL PUBLIC LICENSE)
 
+This project contains programs based on GNURadio and gr-gsm. 
+- airprobe_rtlsdr.grc
+https://github.com/ptrkrysik/gr-gsm
+http://gnuradio.org/
+- Mobile Country Code Table (http://mcc-mnc.com/)
+https://github.com/musalbas/mcc-mnc-table
+
 
 -------------------------
 developed by 
