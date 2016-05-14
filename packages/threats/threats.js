@@ -41,10 +41,3 @@ Threats.Threats.attachSchema(new SimpleSchema({
     type: String
   }
 }))
-
-/** Send to PRTG Sensor
-Threats.Threats.after.insert(function(userId, doc) {
-  PRTG.push([['value',doc.score], ['&text', doc.message]], (error, response) => {
-  })
-})
-**/
