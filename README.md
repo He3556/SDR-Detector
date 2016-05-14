@@ -22,7 +22,5 @@ sudo meteor --settings settings.json
 By default, Meteor runs the webserver on `http://localhost:3000`
 ```
 
-***
-copyright 2016 - dm-development.de
 
 
