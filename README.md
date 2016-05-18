@@ -9,6 +9,9 @@ Other components (like GNU Radio, Wireshark and GR-GSM) have to be installed in 
 
 ***
 
+![Image of SDR-Detector]
+(http://smartphone-attack-vector.de/wp-content/uploads/2016/05/SDR-Detector_GSM-Scanner.jpg)
+
 ###[Usage](https://github.com/He3556/SDR-Detector/wiki/Directions-For-Use)
 
 ###[Detections](https://github.com/He3556/SDR-Detector/wiki/Thread-level-and-score-calculation)
