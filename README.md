@@ -20,7 +20,10 @@ Other components (like GNU Radio, Wireshark and GR-GSM) have to be installed in 
 
 
 ```
-//When all software tools and libraries are installed - download (or clone) the project to your harddisk and edit the settingsfile to your needs. Than generate a python script with: 
+//When all software tools and libraries are installed - 
+download (or clone) the project to your harddisk 
+and edit the settingsfile to your needs. 
+Than generate a python script with: 
 gnuradio-companion grcs/airprobe_rtlsdr.grc
 
 // Now you can run the detector as `root` in order to capture data
